@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "comparison": "R parsed syntax trees are identical after applying the recorded local-variable renaming; call argument names, literals and operations unchanged.",
+  "runtime": "R version 4.4.3 (2025-02-28 ucrt)",
+  "renamed_variables": 35,
+  "original_sha256": "6a73b6f14d846768dbdd308422ec79cbdb79b69c85d1f866893cf0da3ca11619",
+  "publication_sha256": "a2070c1ac5d78ed807db1c64182ac4e7f8e9053b5c68b32c2a5da04a4c0c0fdd",
+  "full_dada2_execution": false
+}

@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "date": "2026-10-15",
+  "python": "3.11.3",
+  "numpy": "2.2.6",
+  "pandas": "2.2.3",
+  "checks": [
+    {
+      "name": "source_tracking",
+      "status": "PASS",
+      "details": {
+        "single_run_cases": 12,
+        "multiple_sink_cases": 18,
+        "comparisons": "Exact retained draws, run means, population std, RSD and multinomial resampling."
+      },
+      "seconds": 0.972
+    },
+    {
+      "name": "primer_arguments",
+      "status": "PASS",
+      "details": {
+        "argument_cases": 2,
+        "backend": "mocked; raw-read preprocessing was not executed"
+      },
+      "seconds": 0.001
+    }
+  ],
+  "comparison": "Direct exact equality to selected original code objects extracted from SeawaterTracker.exe.",
+  "limits": [
+    "Full-size study analysis not run.",
+    "Primer backend mocked; full FASTQ pipeline not run."
+  ]
+}

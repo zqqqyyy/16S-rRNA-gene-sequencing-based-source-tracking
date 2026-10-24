@@ -1,0 +1,69 @@
+{
+  "archive": {
+    "bytes": 889803959,
+    "sha256": "2844debdff2172d362266e150492f6fcfa05a7c5ae7f41121b809a18cc52d490",
+    "name": "SeawaterTracker_portable.rar"
+  },
+  "archive_hash_rechecked": "2026-10-15",
+  "original_modules": [
+    {
+      "module": "app.core.pipeline",
+      "variant": "seawater_outer",
+      "payload_sha256": "e935f4268c7bdceb1a90aedb6b3f0a448bfa5ce5b00c4f8f159da83a32c7e8ab"
+    },
+    {
+      "module": "app.core.primer_trimmer",
+      "variant": "seawater_outer",
+      "payload_sha256": "dfde7fcb72b8a935d8919155d04300edcd53e43e0d50697e19fc6ca7f827b9d0"
+    },
+    {
+      "module": "app.core.reference_db",
+      "variant": "seawater_outer",
+      "payload_sha256": "39f31ae157422f5d017926a375672adb1e2bc45169e5ce3c90bd017fd48ed3dd"
+    },
+    {
+      "module": "app.core.sourcetracker",
+      "variant": "seawater_outer",
+      "payload_sha256": "1ca5088e3a1ee4e2c1135460a45de3556866e500283278bad6520fd8d9a462fc"
+    },
+    {
+      "module": "app.core.pipeline",
+      "variant": "seawater_nested",
+      "payload_sha256": "e935f4268c7bdceb1a90aedb6b3f0a448bfa5ce5b00c4f8f159da83a32c7e8ab"
+    },
+    {
+      "module": "app.core.primer_trimmer",
+      "variant": "seawater_nested",
+      "payload_sha256": "057c8f6c5b449a8a493b42d043d2a4b0ae85e67737c6ece4cca4ddc0493d7c56"
+    },
+    {
+      "module": "app.core.reference_db",
+      "variant": "seawater_nested",
+      "payload_sha256": "39f31ae157422f5d017926a375672adb1e2bc45169e5ce3c90bd017fd48ed3dd"
+    },
+    {
+      "module": "app.core.sourcetracker",
+      "variant": "seawater_nested",
+      "payload_sha256": "1ca5088e3a1ee4e2c1135460a45de3556866e500283278bad6520fd8d9a462fc"
+    }
+  ],
+  "copied_code": [
+    {
+      "file": "source_tracking.py",
+      "sha256": "4de5e8e8e38de0fa583be782ef167e4934806db15af78ba2b2fd1879a22342a5",
+      "combined_release_file": "src/coastal_mst/source_tracking.py"
+    },
+    {
+      "file": "primer_trimming.py",
+      "sha256": "503c621818e0f05bcc35593e81f9eaee786e1090a71f6a225d2c4ea51b9b53c6",
+      "combined_release_file": "src/coastal_mst/primer_trimming.py"
+    },
+    {
+      "file": "dada2_denoise.R",
+      "sha256": "a2070c1ac5d78ed807db1c64182ac4e7f8e9053b5c68b32c2a5da04a4c0c0fdd",
+      "combined_release_file": "scripts/dada2_denoise.R"
+    }
+  ],
+  "data_preparation": "Selected count-table functions retained verbatim from the validated combined release.",
+  "scope": "Recovered numerical and preprocessing cores with a new standalone CLI; no desktop GUI restoration."
+}

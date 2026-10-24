@@ -1,0 +1,16 @@
+[
+  {
+    "file": "data/sequencing/source_environment_counts.tsv.gz",
+    "source_basename": "source_environment_counts.tsv.gz",
+    "source_sha256": "cce4ca0515603aa22837868a34868e80c4a2f1821c7ad147b6cf323ba7823bfe",
+    "sha256": "cce4ca0515603aa22837868a34868e80c4a2f1821c7ad147b6cf323ba7823bfe",
+    "transformation": "Unchanged copy of validated reference/sink count exports from recovery."
+  },
+  {
+    "file": "data/sequencing/aligned_sink_counts.tsv.gz",
+    "source_basename": "aligned_sink_counts.tsv.gz",
+    "source_sha256": "a5810e6ad6c89ca0e62fb2486274a0812715a0289e63793efb8a3f54db6e099c",
+    "sha256": "a5810e6ad6c89ca0e62fb2486274a0812715a0289e63793efb8a3f54db6e099c",
+    "transformation": "Unchanged copy of validated reference/sink count exports from recovery."
+  }
+]

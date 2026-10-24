@@ -1,0 +1,11 @@
+{
+  "burn_in_iterations": 20,
+  "posterior_draws": 20,
+  "thinning_interval": 2,
+  "source_feature_prior": 0.001,
+  "source_mixture_prior": 0.1,
+  "unknown_feature_prior": 0.01,
+  "resampling_depth": 0,
+  "random_seed": 42,
+  "independent_runs": 3
+}

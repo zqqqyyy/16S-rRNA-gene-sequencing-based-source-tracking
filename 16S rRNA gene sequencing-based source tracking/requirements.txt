@@ -1,0 +1,7 @@
+# CPython 3.11 validation environment; numerical comparison uses these exact versions.
+numpy==2.2.6
+pandas==2.2.3
+python-dateutil==2.9.0.post0
+six==1.17.0
+pytz==2025.2
+tzdata==2025.2

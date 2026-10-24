@@ -1,0 +1,20 @@
+{
+  "reference_pickle_sha256": "b80bfc3a93253247f6766e9c5d9f61f338c5896910a9c7279078648c5b11f669",
+  "reference_samples": 147,
+  "reference_features": 84026,
+  "reference_metadata_rows": 147,
+  "role_counts": {
+    "source": 137,
+    "sink": 10
+  },
+  "source_categories": 21,
+  "aligned_features": 78705,
+  "sink_samples": [
+    "JST",
+    "SLR",
+    "YY"
+  ],
+  "aggregation_validation": "exact equality to original ReferenceDB.get_source_matrix",
+  "derivation": "Union of ASV IDs; missing counts filled with zero; sum source samples by Env; remove columns with zero total counts in both sources and sinks. Derived from AnalysisPipeline.analyze_new_samples bytecode.",
+  "note": "These exports are the packaged reference state and archived ASV table, not proof that this state produced manuscript figures."
+}

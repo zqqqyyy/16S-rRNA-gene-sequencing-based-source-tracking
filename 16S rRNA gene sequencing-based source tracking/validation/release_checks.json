@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "date": "2026-10-15",
+  "public_tests": {
+    "passed": 24,
+    "failed": 0
+  },
+  "ruff_check": "PASS",
+  "ruff_format_check": "PASS",
+  "standalone_script": "PASS",
+  "wheel_build_and_installation": "PASS",
+  "installed_console_example": "PASS",
+  "demo_output_comparison": "All three TSV outputs exactly match the validated combined release and installed standalone entry point.",
+  "core_source_comparison": "Sampler, primer wrapper and R script byte-identical; data functions have identical syntax trees.",
+  "limitations": [
+    "Full FASTQ/DADA2 execution not run.",
+    "Full-size source analysis and manuscript figures not reproduced."
+  ]
+}
